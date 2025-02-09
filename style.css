@@ -1,0 +1,39 @@
+.nav-item{
+    font-weight: bold;
+}
+
+.nav-listing{
+    margin-left: 150px;
+}
+
+
+.options:hover{
+    /* text-decoration-line: underline;
+    text-decoration-color: green ; */
+    
+    border-bottom-width: 3px;
+    border-bottom-style:solid ;
+    border-bottom-color: green; 
+}
+
+.donate-btn{
+    width: 170px;
+    margin-left: 50px;
+    color: white;
+    border-style: solid;
+    border-color:  rgb(47, 100, 243);
+    border-radius: 10px;
+    background-color: rgb(47, 100, 243);
+}
+
+.read-btn{
+    height: 60px;
+    width: 180px;
+}
+
+.donate-box{
+    background-color: rgb(177, 251, 177);
+    height: 200px;
+    
+    
+}
