@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+@font-face {
+    font-family: "apercu";
+    src: url(../fonts/Apercu-Font/Apercu\ Regular.otf);
+}
+
+
+.f-apercu{
+    font-family: "apercu";
+}
+
+.f-24{
+    font-size: 2.4rem;
+}
+.f-12{
+    font-size: 1rem;
+}
+
+.f-14{
+    font-size: 1.4rem;
+}
+
+.f-16{
+    font-size: 1.6rem;
+}
+
+.text-gray{
+    color: #3e3e3e
+}
+
+.bg-gray{
+    background-color: #d3d2d2;
+}
+
+/* @font-face {
+    font-family: "bulter";
+    src: url(./accets/fonts/Butler/Butler_Regular.otf);
+}
+
+.f-butler{
+    font-family: "butler";
+} */
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+.Top>ul>li{
+
+    display: inline-block;
+}
+
+.top-icons{
+    margin-right: 8px;
+}
+
+
+.top-btn{
+    width: 75px;
+    background-color: #ffff;
+    border: 1px solid #d3d2d2;
+}
+
+.Top{
+    background-color: #ededed;
+    color: #646363;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.top-flag-icon{
+    width: 20px;
+    margin-left: 8px;
+}
+
+.page-links>a{
+
+    text-decoration: none;
+    color: #555454;
+}
+
+.page-links>a:hover{
+    border-bottom: 2px solid green;
+}
+
+.page-links{
+    font-size: 1.4rem;
+}
+
+.nav-btn-2{
+    background-color: #8fc740;
+    border: 1px solid;
+}
+
+.navbar{
+    border-bottom: 2px solid #e5e3e3;
+}
+
+.text-light-green{
+    color: #8fc740;
+}
+
+.bg-light-green{
+    background-color: #8fc740;
+}
+
+.bg-light-green-2{
+    background-color: #e5fac4;
+}
+
+.welcome{
+    font-size: 3.8rem;
+}
+
+.donation-box{
+        background-color: #e5fac4;
+        border-radius: 15px;
+}
+
+/* .general-input[type = "text"]{
+    max-height:200px;
+} */
+
+.Welfare-box,
+.Mdical-box,
+.Online-sadqa,
+.Clean-water,
+.Education,
+.Food{
+    width: 15%;
+}
+.top-icons{
+    margin-right: 8px;
+}
+
+
+.top-btn{
+    width: 75px;
+    background-color: #ffff;
+    border: 1px solid #d3d2d2;
+}
+
+.Top{
+    background-color: #ededed;
+    color: #646363;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.top-flag-icon{
+    width: 20px;
+    margin-left: 8px;
+}
+
+.page-links>a{
+
+    text-decoration: none;
+    color: #555454;
+}
+
+.page-links>a:hover{
+    border-bottom: 2px solid green;
+}
+
+.page-links{
+    font-size: 1.4rem;
+}
+
+.nav-btn-2{
+    background-color: #8fc740;
+    border: 1px solid;
+}
+
+.navbar{
+    border-bottom: 2px solid #e5e3e3;
+}
+
+.text-light-green{
+    color: #8fc740;
+}
+
+.bg-light-green{
+    background-color: #8fc740;
+}
+
+.bg-light-green-2{
+    background-color:#acc584;
+}
+.green{
+    background-color: #acc584;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+    .container-1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6rem;
+    }
+
+    .parent-1 {
+        width: 50%;
+    }
+
+    .parent-img-1 {
+        width: 400px !important;
+    }
+    .parent-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+/* ---------- container-4 started -------- */
+.doing {
+    text-align: center;
+}
+
+.parent-4 { 
+    width: 85%;
+}
+/* ---------- container-4 ended -------- */
+
+
+/* ---------- container-5 started -------- */
+.container-5 {
+    padding: 0rem 10rem;
+}
+/* ---------- container-5 ended -------- */
+
+
+/* ---------- container-9 sarted -------- */
+iframe {
+    width: 27rem;
+}
+/* ---------- container-9 ended -------- */
+}
+.parent-container{
+    /* height: 300px; */
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    justify-content: center; */
+    display: flex;
+    justify-content: space-around;
+}
+.children-1{
+   width: 300px;
+    text-align: center;
+}
+.children-2{
+    width: 300px;
+    text-align: center;
+}
+.children-3{
+width: 300px;
+    text-align: center;
+}
